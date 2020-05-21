@@ -71,6 +71,12 @@ public class LoginGUI implements ActionListener{
     }
 
     public void actionPerformed(ActionEvent e){
-       
+        String user = userText.getText();
+        String password = passwordTxt.getText(); 
+
+        if(user.equals("harry") && password.equals("69420"));
+        {
+            success.setText("Correct password entered");
+        }
     }
 }
